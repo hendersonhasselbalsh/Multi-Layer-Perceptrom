@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main-Porject">
+      <UniqueIdentifier>{daec3b46-3244-4cc2-872a-49540d70976f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MLP">
+      <UniqueIdentifier>{94a31547-eba9-4648-88af-6e4f8b048bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MLP\Activation-Func">
+      <UniqueIdentifier>{c7525021-2055-415d-ab10-a2e5a9972b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MLP\Layer">
+      <UniqueIdentifier>{33b86942-10ea-413d-b550-ac9f8304b6cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MLP\Loss-Func">
+      <UniqueIdentifier>{168b9d53-1873-4fb2-acb7-94611138d151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MLP\MLP-Builder">
+      <UniqueIdentifier>{e208874b-a902-4660-bd6c-123f1def4b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{d541be07-ed8a-4429-b1c3-98c65e687f8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mlp\multy-layer-perceptron.cpp">
+      <Filter>MLP</Filter>
+    </ClCompile>
+    <ClCompile Include="mlp\activation-functions.cpp">
+      <Filter>MLP\Activation-Func</Filter>
+    </ClCompile>
+    <ClCompile Include="mlp\layer.cpp">
+      <Filter>MLP\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="mlp\lost-function.cpp">
+      <Filter>MLP\Loss-Func</Filter>
+    </ClCompile>
+    <ClCompile Include="mlp\mlp-builder.cpp">
+      <Filter>MLP\MLP-Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Main-Project\main.cpp">
+      <Filter>Main-Porject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mlp\multy-layer-perceptron.h">
+      <Filter>MLP</Filter>
+    </ClInclude>
+    <ClInclude Include="mlp\activation-functions.h">
+      <Filter>MLP\Activation-Func</Filter>
+    </ClInclude>
+    <ClInclude Include="mlp\layer.h">
+      <Filter>MLP\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="mlp\lost-function.h">
+      <Filter>MLP\Loss-Func</Filter>
+    </ClInclude>
+    <ClInclude Include="mlp\mlp-builder.h">
+      <Filter>MLP\MLP-Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\basic-includes.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
